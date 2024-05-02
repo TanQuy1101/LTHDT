@@ -20,12 +20,20 @@ namespace BUOI_01
             //a.xepLoai();
             //Console.ReadKey();
 
-            NhanVien nv = new NhanVien("0","0",0);
-            nv.nhapNV();
-            nv.xuatNV();
-            nv.xepLoai();
-            nv.tinhLuong();
-            nv.tinhThuong();
+            //NhanVien nv = new NhanVien("0","0",0);
+            //nv.nhapNV();
+            //nv.xuatNV();
+            //nv.xepLoai();
+            //nv.tinhLuong();
+            //nv.tinhThuong();
+            //Console.ReadKey();
+
+            NhanVien_BT1 nv = new NhanVien_BT1("0", "0", "0", "0", 0, 0, 0);
+            nv.nhap();
+            nv.xuat();
+            nv.tinhHoTro();
+            nv.tinhHSTD();
+            nv.tinhTNTT();
             Console.ReadKey();
         }
     }
